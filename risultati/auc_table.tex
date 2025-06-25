@@ -1,0 +1,42 @@
+\begin{table}
+\caption{AUC medio per dataset e modello}
+\label{tab:auc_by_folder}
+\begin{tabular}{lrrrrr}
+\toprule
+model & IForest & AutoEncoder & KNN_5 & KNN_10 & KNN_30 \\
+folder &  &  &  &  &  \\
+\midrule
+Daphnet & 0.408 & 0.407 & 0.418 & 0.404 & 0.396 \\
+Dodgers & 0.790 & 0.840 & 0.921 & 0.932 & 0.850 \\
+ECG & 0.847 & 0.846 & 0.847 & 0.853 & 0.851 \\
+GHL & 0.943 & 0.981 & 0.936 & 0.902 & 0.882 \\
+Genesis & 1.000 & 0.991 & 1.000 & 1.000 & 1.000 \\
+IOPS & 0.832 & 0.980 & 0.986 & 0.985 & 0.982 \\
+KDD21 & 0.749 & 0.691 & 0.688 & 0.690 & 0.738 \\
+MGAB & 0.576 & 0.638 & 0.789 & 0.759 & 0.726 \\
+MITDB & 0.446 & 0.575 & 0.642 & 0.604 & 0.582 \\
+NASA-SMAP & 0.750 & 0.750 & 0.750 & 0.750 & 0.750 \\
+OPPORTUNITY & 0.990 & 0.775 & 0.275 & 0.274 & 0.852 \\
+SMD & 0.931 & 0.952 & 0.946 & 0.939 & 0.935 \\
+SVDB & 0.949 & 0.963 & 0.976 & 0.975 & 0.971 \\
+SensorScope & 0.798 & 0.671 & 0.804 & 0.808 & 0.812 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\begin{table}
+\caption{Media AUC per modello}
+\label{tab:auc_means}
+\begin{tabular}{lr}
+\toprule
+model & Media AUC & Std Dev \\
+\midrule
+IForest & 0.786 & 0.190 \\
+AutoEncoder & 0.790 & 0.179 \\
+KNN_5 & 0.784 & 0.218 \\
+KNN_10 & 0.777 & 0.221 \\
+KNN_30 & 0.809 & 0.166 \\
+\bottomrule
+\end{tabular}
+\end{table}
